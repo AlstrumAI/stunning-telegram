@@ -1,0 +1,33 @@
+{
+  "concept": "Change of Character",
+  "definition": "When the market tells you the old structure is dead. Not a pullback. A regime shift.",
+  "series": "HOW THE MACHINE WORKS",
+  "steps": [
+    { "label": "The old regime", "detail": "Buy yen. Buy euros. Accumulate Treasuries. Three weeks straight." },
+    { "label": "The exhaustion", "detail": "225K added. Then 165K. Then 75K. Then zero. The bid went full." },
+    { "label": "The sweep", "detail": "JPY longs liquidated 58% in five days. EUR down 10%. Everything unwound at once." },
+    { "label": "What survived", "detail": "AUD. Record CFTC build. Didn't flinch. That's the new regime." }
+  ],
+  "cotConfirmation": "Treasury accumulation hit zero. JPY swept from 42,871 to 17,904 in one week. AUD held at 28,878 — largest single-week build in CFTC history.",
+  "takeaway": "When everything unwinds except one thing, that one thing tells you where the next move lives.",
+  "showCaptions": true,
+  "captions": [
+    { "text": "58% liquidated. Five days.", "highlights": ["58%", "Five days"], "startTime": 0, "endTime": 2.0 },
+    { "text": "Three weeks of the same playbook. Then the rules changed.", "highlights": ["rules changed"], "startTime": 2.5, "endTime": 5.0 },
+    { "text": "The old playbook: buy yen, buy euros, load up on Treasuries.", "highlights": ["old playbook"], "startTime": 5.5, "endTime": 8.0 },
+    { "text": "Treasury buying: 225K → 165K → 75K → zero.", "highlights": ["zero"], "startTime": 8.0, "endTime": 10.5 },
+    { "text": "Then yen got swept. 42,871 contracts down to 17,904.", "highlights": ["17,904"], "startTime": 10.5, "endTime": 13.0 },
+    { "text": "Euros dropped 10%. Everything they were doing — undone.", "highlights": ["undone"], "startTime": 13.0, "endTime": 15.5 },
+    { "text": "Except AUD. Record build. Held through all of it.", "highlights": ["AUD"], "startTime": 15.5, "endTime": 18.0 },
+    { "text": "When everything unwinds except one thing, that thing is the next move.", "highlights": ["next move"], "startTime": 18.5, "endTime": 21.0 },
+    { "text": "Like and subscribe. Full read in link in bio.", "highlights": [], "startTime": 21.5, "endTime": 25.0 }
+  ],
+  "voiceover": [
+    { "beat": "interrupt", "text": "Fifty-eight percent. Liquidated. In five days.", "startFrame": 0, "endFrame": 90 },
+    { "beat": "gap", "text": "For three weeks, big money had one playbook. Buy yen for protection, buy euros against the dollar, load up on Treasuries. Then the rules changed.", "startFrame": 90, "endFrame": 180 },
+    { "beat": "reveal", "text": "Treasury buying was decelerating. 225 thousand, then 165 thousand, then 75 thousand, then zero. The buying just stopped. Then yen positions got swept. 42,871 contracts down to 17,904. That's 58% gone in five days. Three weeks of hedging, wiped in one week. Euros dropped 10%. Everything they'd been building, undone at once. But one thing held. Australian dollar. 28,878 contracts. Biggest single-week build in CFTC history. Didn't move while everything around it collapsed.", "startFrame": 180, "endFrame": 540 },
+    { "beat": "reframe", "text": "The old playbook died. The new one just started. When everything unwinds except one thing, that one thing tells you where the next move lives.", "startFrame": 540, "endFrame": 660 },
+    { "beat": "cta", "text": "Like and subscribe. Full breakdown in the link in bio.", "startFrame": 660, "endFrame": 750 }
+  ],
+  "audioPrefix": "structure_education"
+}

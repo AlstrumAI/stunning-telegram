@@ -1,0 +1,31 @@
+{
+  "numbers": [
+    { "value": "~0", "label": "Treasury Weekly Change", "context": "Four weeks of buying. Then full stop." },
+    { "value": "-58%", "label": "JPY Unwind", "context": "42,871 → 17,904. Five days." },
+    { "value": "+16,718", "label": "AUD Contracts", "context": "Largest CFTC build. Ever." },
+    { "value": "35.87M oz", "label": "Silver Delivered", "context": "Four days. COMEX inventory halved." },
+    { "value": "38.2%", "label": "Lease Rate", "context": "Feb halt was at 35%. We're above it." },
+    { "value": "93", "label": "Crypto Relay Score", "context": "CONFIRMED. But chart says otherwise." }
+  ],
+  "edition": "THE NUMBERS — Change of Character",
+  "series": "THE NUMBERS",
+  "showCaptions": true,
+  "captions": [
+    { "text": "Six numbers. One week. One story.", "highlights": ["Six numbers"], "startTime": 0, "endTime": 1.5 },
+    { "text": "Zero. Treasury weekly change. Four weeks of buying. Then full stop.", "highlights": ["Zero"], "startTime": 2.0, "endTime": 4.0 },
+    { "text": "-58%. JPY unwind. 42,871 to 17,904. Five days.", "highlights": ["-58%"], "startTime": 4.0, "endTime": 5.5 },
+    { "text": "+16,718. AUD contracts. Largest CFTC build. Ever.", "highlights": ["+16,718"], "startTime": 5.5, "endTime": 7.0 },
+    { "text": "35.87M oz. Silver delivered. Four days. COMEX inventory halved.", "highlights": ["35.87M"], "startTime": 7.0, "endTime": 8.5 },
+    { "text": "38.2%. Lease rate. Feb halt was at 35%. We're above it.", "highlights": ["38.2%"], "startTime": 8.5, "endTime": 10.0 },
+    { "text": "93. Crypto relay score. Confirmed. Chart says otherwise.", "highlights": ["93"], "startTime": 10.0, "endTime": 11.0 },
+    { "text": "Like and subscribe. Full breakdown in link in bio.", "highlights": [], "startTime": 11.0, "endTime": 12.0 }
+  ],
+  "voiceover": [
+    { "beat": "interrupt", "text": "Six numbers. One week. One story.", "startFrame": 0, "endFrame": 45 },
+    { "beat": "gap", "text": "Zero. Treasury weekly change. Four weeks of buying, then full stop.", "startFrame": 60, "endFrame": 120 },
+    { "beat": "reveal", "text": "Minus 58 percent. Yen unwind. 42,871 contracts down to 17,904 in five days. Plus 16,718. Australian dollar. Largest single-week CFTC build ever. 35.87 million ounces of silver delivered in four days. COMEX inventory halved. 38.2% lease rate. February's halt was at 35. We're above it. 93. Crypto relay score. Confirmed. But the chart says otherwise.", "startFrame": 120, "endFrame": 300 },
+    { "beat": "reframe", "text": "That's one week. Six numbers. All pointing the same direction.", "startFrame": 300, "endFrame": 330 },
+    { "beat": "cta", "text": "Like and subscribe. Full breakdown in the link in bio.", "startFrame": 330, "endFrame": 360 }
+  ],
+  "audioPrefix": "weekly_numbers"
+}

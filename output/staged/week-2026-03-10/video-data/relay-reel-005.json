@@ -1,0 +1,32 @@
+{
+  "week": "Week of March 10, 2026",
+  "series": "THE RELAY",
+  "stages": [
+    { "name": "Bonds", "arrow": "↑", "headline": "-235K specs short. 90th pctl.", "detail": "Confirmed. Accumulation complete." },
+    { "name": "Currencies", "arrow": "↓", "headline": "JPY -58%. EUR -10%.", "detail": "Hedging regime dead." },
+    { "name": "Commodities", "arrow": "↗", "headline": "+203K contracts. 1st pctl.", "detail": "AUD record build held." },
+    { "name": "Equities", "arrow": "→", "headline": "-334K specs short", "detail": "Squeeze or breakdown." },
+    { "name": "Crypto", "arrow": "↑", "headline": "Score: 93. CONFIRMED.", "detail": "Chart hasn't confirmed yet." }
+  ],
+  "thesis": "Hedging regime dead. Commodity rotation started. Two nodes confirmed.",
+  "showCaptions": true,
+  "captions": [
+    { "text": "Two nodes flipped in one week.", "highlights": ["Two nodes"], "startTime": 0, "endTime": 2.0 },
+    { "text": "Most people track price. This tracks where $46 billion moved.", "highlights": ["$46 billion"], "startTime": 2.5, "endTime": 5.0 },
+    { "text": "Bonds: confirmed. Four weeks of buying. Then full stop.", "highlights": ["full stop"], "startTime": 5.5, "endTime": 7.0 },
+    { "text": "Currencies: repricing. JPY down 58% in a week.", "highlights": ["58%"], "startTime": 7.0, "endTime": 8.5 },
+    { "text": "Commodities: emerging. AUD held while everything collapsed.", "highlights": ["AUD held"], "startTime": 8.5, "endTime": 10.0 },
+    { "text": "Equities: stalled. 334K contracts short.", "highlights": ["334K"], "startTime": 10.0, "endTime": 11.0 },
+    { "text": "Crypto: confirmed at 93. Chart hasn't caught up yet.", "highlights": ["93"], "startTime": 11.0, "endTime": 12.0 },
+    { "text": "That's not five random markets. That's one chain. And it just shifted.", "highlights": ["one chain"], "startTime": 12.5, "endTime": 14.0 },
+    { "text": "Like and subscribe. Full read in link in bio.", "highlights": [], "startTime": 14.0, "endTime": 15.0 }
+  ],
+  "voiceover": [
+    { "beat": "interrupt", "text": "Two nodes flipped. In one week.", "startFrame": 0, "endFrame": 60 },
+    { "beat": "gap", "text": "Most people track price. This tracks where 46 billion dollars in institutional capital actually moved.", "startFrame": 75, "endFrame": 150 },
+    { "beat": "reveal", "text": "Bonds. Confirmed. Four weeks of buying, then full stop. Currencies. Repricing. Yen down 58% in a week. Commodities. Emerging. Australian dollar held while everything around it collapsed. Equities. Stalled. 334 thousand contracts short. Crypto. Confirmed at 93. Chart hasn't caught up yet.", "startFrame": 165, "endFrame": 360 },
+    { "beat": "reframe", "text": "That's not five random markets. That's one chain. And it just shifted.", "startFrame": 375, "endFrame": 420 },
+    { "beat": "cta", "text": "Like and subscribe. Full read in the link in bio.", "startFrame": 420, "endFrame": 450 }
+  ],
+  "audioPrefix": "relay_reel"
+}

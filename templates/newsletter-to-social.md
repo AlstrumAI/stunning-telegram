@@ -1,40 +1,52 @@
 # Newsletter → Social Atomization Template
 
-## Step 1: Angle Selection
-Read the current edition. Identify the 3-4 strongest hooks. A hook is a single data point or concept that can stand alone without context.
+## What This Does
+CC reads the current edition from `published/current-edition.md` and generates a full week of social content + video data JSONs. Everything comes from the edition. Nothing is made up.
 
-For each hook, rate: surprise factor (1-5), data specificity (1-5), shareability (1-5).
+## Read First
+1. `context/voice-style.md`
+2. `strategy/video-growth.md` (video is a growth channel, not a summary format)
+3. `published/current-edition.md` (this week's source)
 
-Select top 4 hooks. Assign each to the platform where it performs best:
-- **Dramatic single number** → Twitter (punchy, quotable)
-- **Visual comparison / multi-week trend** → Instagram carousel (data-visual)
-- **Professional analysis / macro thesis** → LinkedIn (credibility, longer form)
-- **Mechanical explanation (how something works)** → Video short (educational)
-- **Product moment (Relay update, new feature)** → Instagram story (screenshot + link)
+## Step 1: Pick the Hooks
+Read the edition. Find 4-5 data points or concepts that can stand alone. Score each:
 
-## Step 2: Platform-Specific Generation
+| Criteria | What It Means |
+|----------|--------------|
+| Surprise (1-5) | Would this stop someone scrolling? |
+| Specificity (1-5) | Does it have a concrete number? |
+| Shareability (1-5) | Would someone send this to a friend? |
+| Video potential (1-5) | Can it be a 15-25s video with visuals? |
 
-### Twitter (Mon, Tue, Wed, Fri)
-- Monday: The edition's single strongest data point as a standalone tweet. No link in tweet — put link in reply.
-- Tuesday: A contrarian take or engagement question derived from the thesis. Must contain a number.
-- Wednesday: Watchlist or plays update. "Last edition flagged X. Here's where it is now."
-- Friday: COT quick-take after data drops. Screenshot of the Relay + one-sentence thesis.
+Assign each hook to the platform where it hits hardest:
+- **Dramatic single number** → Twitter
+- **Visual trend / multi-week data** → Instagram carousel
+- **Professional macro analysis** → LinkedIn
+- **Surprising mechanism or "how it works"** → Video short
+- **Product moment (Relay update)** → Instagram story
 
-### Instagram (Mon, Wed, Thu)
-- Monday: Relay carousel (5-7 slides). Slide 1 = hook. Slides 2-5 = one asset class each. Slide 6 = thesis. Slide 7 = CTA.
-- Wednesday: Educational carousel or reel from "Off the Books" section (4-5 slides).
-- Thursday: Story — Relay screenshot or poll based on current positioning.
+## Step 2: Generate Video (Do This First — Highest Reach)
+Pick 2-3 hooks with highest video potential. Generate JSONs per `templates/video-data-schemas.md`. Follow the 5-beat structure from `strategy/video-growth.md`. One concept per video.
 
-### LinkedIn (Mon, Wed)
-- Monday: 300-500 word newsletter companion. Professional tone, same data, link in first comment.
-- Wednesday: 200-400 word macro analysis connecting institutional positioning to broader economics.
+## Step 3: Generate Twitter (Mon, Tue, Wed, Fri)
+- **Monday**: Strongest data point from the edition. Link in reply, not in tweet.
+- **Tuesday**: Contrarian take or divergence. Must contain a number.
+- **Wednesday**: Watchlist follow-up or COMEX/delivery tracking update.
+- **Friday**: COT quick-take after 3:30pm drop. Relay screenshot + one sentence. (Placeholder until Friday.)
 
-### Video Shorts (Wed, Fri)
-- Wednesday: 30-60s COT explainer. Generate JSON for COTDataReveal or StructureEducation composition.
-- Friday: 45-90s Relay breakdown. Generate JSON for RelayReel composition.
+## Step 4: Generate Instagram (Mon, Wed, Thu)
+- **Monday**: Carousel from the Relay or strongest positioning shift. 5-7 slides. Hook → data → thesis → CTA.
+- **Wednesday**: Educational carousel from "Off the Books" section. Or post the Wednesday video as a Reel.
+- **Thursday**: Story — poll or Relay screenshot with link sticker.
 
-## Step 3: Cross-Reference
-Check git history for prior week's edition to ensure no repeated angles.
+## Step 5: Generate LinkedIn (Mon)
+- **Monday**: 300-500 word newsletter companion. Professional tone. Link in first comment.
 
-## Step 4: Output
-Write all content to `output/staged/week-YYYY-MM-DD/`. Video JSONs go in `video-data/` subdirectory. Create `angles.md` documenting which hooks were selected and why.
+## Step 6: Cross-Reference
+Check git history for prior week's `published/current-edition.md`. Don't lead with the same angle two weeks running.
+
+## Step 7: Output
+Write everything to `output/staged/week-YYYY-MM-DD/`:
+- `angles.md` — which hooks were selected and why
+- Social posts as markdown files
+- `video-data/` — JSONs for Remotion

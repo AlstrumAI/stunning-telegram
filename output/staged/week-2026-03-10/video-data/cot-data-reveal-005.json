@@ -1,0 +1,32 @@
+{
+  "hook": "465,230 contracts. Then zero.",
+  "subhook": "Every institution that wanted Treasuries already has them.",
+  "series": "THE NUMBERS",
+  "rows": [
+    { "date": "Feb 10", "value": "8,481,609", "change": "+225,503", "story": "Surge. Everyone in." },
+    { "date": "Feb 17", "value": "8,646,579", "change": "+164,970", "story": "Still buying. Slowing." },
+    { "date": "Feb 24", "value": "8,721,336", "change": "+74,757", "story": "Deceleration." },
+    { "date": "Mar 3", "value": "8,721,336", "change": "~0", "story": "Full stop." }
+  ],
+  "insight": "That's not rounding. That's every institution that wanted duration already having it. Nobody new is coming in.",
+  "columnHeaders": ["Date", "Total 2Y-30Y", "Change", "Story"],
+  "showCaptions": true,
+  "captions": [
+    { "text": "465,230 contracts added in three weeks. Then this week: zero.", "highlights": ["465,230", "zero"], "startTime": 0, "endTime": 2.0 },
+    { "text": "Four weeks of buying. Same direction. Then the numbers came in identical.", "highlights": ["identical"], "startTime": 2.5, "endTime": 5.0 },
+    { "text": "+225K. Surge. Everyone in.", "highlights": ["+225K"], "startTime": 5.5, "endTime": 7.5 },
+    { "text": "+165K. Still buying. Slowing.", "highlights": ["+165K"], "startTime": 7.5, "endTime": 9.5 },
+    { "text": "+75K. Deceleration.", "highlights": ["+75K"], "startTime": 9.5, "endTime": 11.5 },
+    { "text": "Zero. Same exact numbers. Full stop.", "highlights": ["Full stop"], "startTime": 11.5, "endTime": 14.0 },
+    { "text": "That's not a pause. That's everyone who wanted in already being in.", "highlights": ["already being in"], "startTime": 14.5, "endTime": 17.0 },
+    { "text": "Like and subscribe. Full breakdown in link in bio.", "highlights": [], "startTime": 17.5, "endTime": 20.0 }
+  ],
+  "voiceover": [
+    { "beat": "interrupt", "text": "Four hundred sixty-five thousand contracts. Then zero.", "startFrame": 0, "endFrame": 90 },
+    { "beat": "gap", "text": "Four weeks straight, institutions were loading up on Treasury futures. Same direction, same momentum. Then this week, the numbers came in identical. Not similar. Identical.", "startFrame": 90, "endFrame": 180 },
+    { "beat": "reveal", "text": "February 10th, they added 225 thousand. Surge. Everyone's in. February 17th, 165 thousand. Still buying, but it's slowing. February 24th, 75 thousand. Decelerating. Then March 3rd? Zero. Same exact numbers as the week before.", "startFrame": 180, "endFrame": 450 },
+    { "beat": "reframe", "text": "That's not a pause. That's every institution that wanted in already being in. Nobody new is coming. When buying stops like that, what comes next is the move.", "startFrame": 450, "endFrame": 540 },
+    { "beat": "cta", "text": "This data drops every Friday. I break it down every Monday. Like and subscribe. Full breakdown in the link in bio.", "startFrame": 540, "endFrame": 600 }
+  ],
+  "audioPrefix": "cot_data_reveal"
+}

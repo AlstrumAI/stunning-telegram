@@ -1,21 +1,21 @@
-# Week of March 10, 2026 — Angles Selected
-Source: Edition 006 "Change of Character"
+# Week of March 10, 2026 — Angles
+Source: Edition 005 "Change of Character"
 
-## Hook Analysis
+## Hooks From This Edition
 
-| Hook | Surprise | Data Specificity | Shareability | Score | Platform |
-|------|----------|-----------------|--------------|-------|----------|
-| Treasury accumulation hit zero — identical numbers two weeks running | 5 | 5 | 4 | 14 | Twitter (Mon) |
-| JPY swept 58% in one week — 3 weeks of hedging gone in 5 days | 4 | 5 | 4 | 13 | Video (Wed) |
-| AUD +16,718 contracts — largest CFTC build ever, held while all else collapsed | 5 | 5 | 3 | 13 | LinkedIn (Mon) |
-| Two Relay nodes flipped in one week — character change visualized | 4 | 3 | 5 | 12 | Instagram carousel (Mon) |
-| COMEX: 35.87M oz delivered in 4 days, inventory from 86M to ~50M | 4 | 5 | 3 | 12 | Twitter (Wed) |
-| Dark pools: 35-40% of US equity volume trades invisibly | 4 | 4 | 5 | 13 | Instagram carousel (Wed) |
-| IBIT divergence: Relay says 93 CONFIRMED, chart still downtrend | 3 | 4 | 4 | 11 | Twitter (Tue) |
+| Hook | Surprise | Specificity | Shareability | Video | Score | Platform |
+|------|----------|------------|-------------|-------|-------|----------|
+| Treasury hit zero — identical two weeks | 5 | 5 | 4 | 5 | 19 | Video (COTDataReveal) + Twitter (Mon) |
+| JPY swept 58% in five days | 4 | 5 | 4 | 5 | 18 | Video (StructureEducation) |
+| AUD record build held while all collapsed | 5 | 5 | 3 | 3 | 16 | LinkedIn (Mon) |
+| Two Relay nodes flipped | 4 | 3 | 5 | 4 | 16 | Video (RelayReel) + Insta carousel (Mon) |
+| Dark pools: 35-40% invisible | 4 | 4 | 5 | 4 | 17 | Insta carousel (Wed) |
+| COMEX 35.87M oz in 4 days | 4 | 5 | 3 | 3 | 15 | Twitter (Wed) |
+| IBIT Relay 93 vs chart downtrend | 3 | 4 | 4 | 3 | 14 | Twitter (Tue) |
 
-## Selected Angles → Platform Assignment
+## Assignments
 
-**Monday Twitter:** Treasury zero. **Monday LinkedIn:** AUD regime shift. **Monday Instagram:** Relay nodes flipped.
-**Tuesday Twitter:** IBIT divergence. **Wednesday Twitter:** COMEX delivery. **Wednesday Instagram:** Dark pools.
-**Wednesday Video:** Change of Character (StructureEducation). **Thursday Story:** SPX short squeeze poll.
-**Friday:** COT quick-take + Relay screenshot (post-3:30pm).
+**Video:** Treasury zero (COTDataReveal), Change of Character concept (StructureEducation), Relay update (RelayReel), Rapid numbers (WeeklyNumbers)
+**Twitter:** Mon (Treasury zero), Tue (IBIT divergence), Wed (COMEX delivery), Fri (COT placeholder)
+**Instagram:** Mon carousel (Relay), Wed carousel (dark pools), Thu story (SPX poll)
+**LinkedIn:** Mon (AUD regime shift)
